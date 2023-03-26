@@ -27,23 +27,71 @@ namespace E_Commerce
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
-            
-                string filepath = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
-                StreamWriter sw = File.AppendText(filepath);
-                using (sw)
+            string name = textBox4.Text;
+            string user_name = textBox3.Text;
+            string password = textBox2.Text;
+            int count = password.Length;
+            string retype_pass = textBox1.Text;
+            if (utility.users.Count > 0)
+            {
+                foreach (user u in utility.users)
                 {
-                    sw.WriteLine("Name : " + textBox4.Text);
-                    sw.WriteLine("Username : " + textBox3.Text);
-                    sw.WriteLine("Password : " + textBox2.Text);
-                    sw.WriteLine("Re-Type Password : " + textBox1.Text);
-                    textBox4.Clear();
-                    textBox3.Clear();
-                    textBox2.Clear();
-                    textBox1.Clear();
+                    if (u.username == user_name)
+                    {
 
+                        if (count >= 6)
+                        {
+                            if (password == retype_pass)
+                            {
+                                string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
+                                StreamWriter sw = File.AppendText(path);
+                                user uu = new user(user_name, name, password);
+                                utility.users.Add(uu);
+                                string ss = $"{user_name},{password},{name}";
+                                sw.WriteLine(ss);
+                                sw.Close();
 
+                                Login_form lf = new Login_form();
+                                lf.Show();
+                                this.Hide();
+
+                            }
+                            else
+                            {
+                                MessageBox.Show("Passwords do not match");
+                            }
+
+                        }
+                        else
+                        {
+                            MessageBox.Show("Password must be 6 or more characters");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Username exists. Try another");
+                    }
                 }
+            }
+            else
+            {
+
+                string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
+                StreamWriter sw = File.AppendText(path);
+                user uu = new user(user_name, name, password);
+                utility.users.Add(uu);
+                string ss = $"{user_name},{password},{name}";
+                sw.WriteLine(ss);
+                sw.Close();
+
+                Form1 lf = new Form1();
+                lf.Show();
+                this.Hide();
+            }
+
+
+
+        }
             
            
         }

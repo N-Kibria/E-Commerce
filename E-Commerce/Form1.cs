@@ -16,5 +16,12 @@ namespace E_Commerce
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Sign_Up f2 = new Sign_Up();
+            f2.Show();
+            this.Hide();
+        }
     }
 }

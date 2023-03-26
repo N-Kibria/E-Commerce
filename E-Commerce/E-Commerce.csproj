@@ -61,6 +61,7 @@
       <DependentUpon>Sign Up.cs</DependentUpon>
     </Compile>
     <Compile Include="user.cs" />
+    <Compile Include="utility.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

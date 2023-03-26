@@ -51,7 +51,7 @@ namespace E_Commerce
                                 sw.WriteLine(ss);
                                 sw.Close();
 
-                                Login_form lf = new Login_form();
+                                Form1 lf = new Form1();
                                 lf.Show();
                                 this.Hide();
 
@@ -94,6 +94,6 @@ namespace E_Commerce
         }
             
            
-        }
     }
 }
+

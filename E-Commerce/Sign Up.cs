@@ -25,7 +25,7 @@ namespace E_Commerce
             this.Hide();
         }
 
-     
+
         private void button2_Click(object sender, EventArgs e)
         {
             string name = textBox4.Text;
@@ -34,10 +34,12 @@ namespace E_Commerce
             int count = password.Length;
             string retype_pass = textBox1.Text;
             bool usernameExists = false;
+            
 
+            // Check if the username already exists in the list of users
             foreach (user u in utility.users)
             {
-                if (u.username == user_name)
+                if (u.username.Equals(user_name))
                 {
                     MessageBox.Show("Username already exists. Try another");
                     usernameExists = true;
@@ -45,6 +47,8 @@ namespace E_Commerce
                 }
             }
 
+
+            // If the username doesn't already exist, create a new user
             if (!usernameExists)
             {
                 if (count >= 6)
@@ -61,6 +65,7 @@ namespace E_Commerce
 
                         MessageBox.Show("User created successfully");
 
+                        // Show the login form
                         Form1 lf = new Form1();
                         lf.Show();
                         this.Hide();

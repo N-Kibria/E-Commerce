@@ -17,6 +17,7 @@ namespace E_Commerce
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -46,7 +47,10 @@ namespace E_Commerce
             if (userFound)
             {
                 MessageBox.Show("Successfully logged in");
-               
+                welcome p1 = new welcome();
+                p1.Show();
+                this.Hide();
+
             }
             else
             {

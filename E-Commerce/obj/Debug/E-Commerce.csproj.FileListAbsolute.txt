@@ -10,3 +10,4 @@ G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.exe
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.pdb
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.welcome.resources

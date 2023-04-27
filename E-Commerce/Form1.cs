@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.IO;
@@ -33,7 +34,7 @@ namespace E_Commerce
             string password = textBox2.Text;
 
             bool userFound = false;
-
+            
             // Load the list of users from the text file
             utility.load_users();
 
@@ -43,9 +44,11 @@ namespace E_Commerce
                 if (u.username == user_name && u.password == password)
                 {
                     userFound = true;
+
                     break;
                 }
             }
+           
 
             if (userFound)
             {

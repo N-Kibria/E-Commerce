@@ -12,7 +12,7 @@ namespace E_Commerce
         public string name { get; set; }
         public string password { get; set; }
 
-        public user(string username, string name, string password)
+        public user(string username, string password, string name )
         {
             this.username = username;
             this.name = name;

@@ -58,7 +58,7 @@ namespace E_Commerce
                     {
                         string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
                         StreamWriter sw = File.AppendText(path);
-                        user uu = new user(user_name, name, password);
+                        user uu = new user(user_name, password,name);
                         utility.users.Add(uu);
                         string ss = $"{user_name},{password},{name}";
                         sw.WriteLine(ss);

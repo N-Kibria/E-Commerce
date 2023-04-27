@@ -26,19 +26,34 @@ namespace E_Commerce
             this.Hide();
         }
 
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            string filepath = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
-            StreamReader sr = new StreamReader(filepath);
-            string str = sr.ReadLine();
-            while(str != null) 
+            string user_name = textBox1.Text;
+            string password = textBox2.Text;
+
+            bool userFound = false;
+
+            foreach (user u in utility.users)
             {
-                if((str == textBox1.Text))// & ( str == textBox2.Text))
+                if (u.username == user_name && u.password == password)
                 {
-                    MessageBox.Show("success");
+                    userFound = true;
+                    break;
                 }
-                str=sr.ReadLine();
+            }
+
+            if (userFound)
+            {
+                MessageBox.Show("Successfully logged in");
+               
+            }
+            else
+            {
+                MessageBox.Show("Wrong username or Password");
             }
         }
+
     }
 }
+

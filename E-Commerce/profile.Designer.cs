@@ -28,12 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.backbtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // backbtn
+            // 
+            this.backbtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.Location = new System.Drawing.Point(646, 355);
+            this.backbtn.Name = "backbtn";
+            this.backbtn.Size = new System.Drawing.Size(106, 46);
+            this.backbtn.TabIndex = 2;
+            this.backbtn.Text = "Back";
+            this.backbtn.UseVisualStyleBackColor = true;
+            this.backbtn.Click += new System.EventHandler(this.backbtn_Click);
+            // 
+            // profile
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.backbtn);
+            this.Name = "profile";
             this.Text = "profile";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button backbtn;
     }
 }

@@ -23,7 +23,6 @@ namespace E_Commerce
 
             while (strr != null)
             {
-
                 string[] k = null;
                 k = strr.Split(',');
                 string user_name = k[0];
@@ -32,10 +31,13 @@ namespace E_Commerce
 
                 user u = new user(user_name, pass, name);
                 users.Add(u);
+
                 strr = srr.ReadLine();
-                srr.Close();
             }
+
             srr.Close();
         }
+
+
     }
 }

@@ -11,3 +11,8 @@ G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.exe
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.pdb
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.welcome.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.balance.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.cart.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.order_status.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.profile.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.review.resources

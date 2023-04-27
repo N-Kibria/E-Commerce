@@ -17,7 +17,8 @@ namespace E_Commerce
         public Form1()
         {
             InitializeComponent();
-            
+            utility.load_users();
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -27,7 +28,7 @@ namespace E_Commerce
             this.Hide();
         }
 
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             string user_name = textBox1.Text;
@@ -35,9 +36,13 @@ namespace E_Commerce
 
             bool userFound = false;
 
+            // Load the list of users from the text file
+            utility.load_users();
+
+            // Check if the entered username and password match a user in the list
             foreach (user u in utility.users)
             {
-                if (u.username == user_name && u.password == password)
+                if (u.username.Equals(user_name) && u.password.Equals(password))
                 {
                     userFound = true;
                     break;
@@ -50,13 +55,14 @@ namespace E_Commerce
                 welcome p1 = new welcome();
                 p1.Show();
                 this.Hide();
-
             }
             else
             {
-                MessageBox.Show("Wrong username or Password");
+                MessageBox.Show("Wrong username or password");
             }
         }
+
+
 
     }
 }

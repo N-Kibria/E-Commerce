@@ -16,5 +16,12 @@ namespace E_Commerce
         {
             InitializeComponent();
         }
+
+        private void backbtn_Click(object sender, EventArgs e)
+        {
+            welcome lf = new welcome();
+            lf.Show();
+            this.Hide();
+        }
     }
 }

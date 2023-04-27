@@ -98,8 +98,20 @@
     <Compile Include="welcome.Designer.cs">
       <DependentUpon>welcome.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="balance.resx">
+      <DependentUpon>balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order status.resx">
+      <DependentUpon>order status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,6 +122,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="review.resx">
+      <DependentUpon>review.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.cs</DependentUpon>
     </EmbeddedResource>

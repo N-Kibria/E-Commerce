@@ -34,7 +34,9 @@ namespace E_Commerce
             int count = password.Length;
             string retype_pass = textBox1.Text;
             bool usernameExists = false;
-            
+
+            // Load the list of users from the text file
+            utility.load_users();
 
             // Check if the username already exists in the list of users
             foreach (user u in utility.users)
@@ -46,7 +48,6 @@ namespace E_Commerce
                     break;
                 }
             }
-
 
             // If the username doesn't already exist, create a new user
             if (!usernameExists)
@@ -82,6 +83,7 @@ namespace E_Commerce
                 }
             }
         }
+
 
 
 

@@ -29,7 +29,9 @@ namespace E_Commerce
 
         private void orderstatbtn_Click(object sender, EventArgs e)
         {
-
+            order_status p1 = new order_status();
+            p1.Show();
+            this.Hide();
         }
 
         private void profilebtn_Click(object sender, EventArgs e)
@@ -42,6 +44,20 @@ namespace E_Commerce
         private void cartbtn_Click(object sender, EventArgs e)
         {
             cart p1 = new cart();
+            p1.Show();
+            this.Hide();
+        }
+
+        private void reviewbtn_Click(object sender, EventArgs e)
+        {
+            review p1 = new review();
+            p1.Show();
+            this.Hide();
+        }
+
+        private void balancebtn_Click(object sender, EventArgs e)
+        {
+            balance p1 = new balance();
             p1.Show();
             this.Hide();
         }

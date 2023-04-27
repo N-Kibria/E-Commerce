@@ -67,6 +67,7 @@
             this.balancebtn.TabIndex = 3;
             this.balancebtn.Text = "Balance";
             this.balancebtn.UseVisualStyleBackColor = true;
+            this.balancebtn.Click += new System.EventHandler(this.balancebtn_Click);
             // 
             // reviewbtn
             // 
@@ -77,6 +78,7 @@
             this.reviewbtn.TabIndex = 4;
             this.reviewbtn.Text = "Review";
             this.reviewbtn.UseVisualStyleBackColor = true;
+            this.reviewbtn.Click += new System.EventHandler(this.reviewbtn_Click);
             // 
             // orderstatbtn
             // 

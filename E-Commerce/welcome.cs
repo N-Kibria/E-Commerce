@@ -7,15 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace E_Commerce
 {
     public partial class welcome : Form
     {
-        public welcome()
+        private string user_name;
+        public welcome(string username)
         {
             InitializeComponent();
+            this.user_name=username;
         }
+        public welcome() { }
 
         private void welcome_Load(object sender, EventArgs e)
         {
@@ -36,7 +40,7 @@ namespace E_Commerce
 
         private void profilebtn_Click(object sender, EventArgs e)
         {
-            profile p1 = new profile();
+            profile p1 = new profile(user_name);
             p1.Show();
             this.Hide();
         }

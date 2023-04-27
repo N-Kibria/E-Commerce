@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace E_Commerce
 {
@@ -28,7 +27,6 @@ namespace E_Commerce
             this.Hide();
         }
 
-
         private void button1_Click(object sender, EventArgs e)
         {
             string user_name = textBox1.Text;
@@ -42,7 +40,7 @@ namespace E_Commerce
             // Check if the entered username and password match a user in the list
             foreach (user u in utility.users)
             {
-                if (u.username.Equals(user_name) && u.password.Equals(password))
+                if (u.username == user_name && u.password == password)
                 {
                     userFound = true;
                     break;
@@ -55,15 +53,12 @@ namespace E_Commerce
                 welcome p1 = new welcome();
                 p1.Show();
                 this.Hide();
+
             }
             else
             {
                 MessageBox.Show("Wrong username or password");
             }
         }
-
-
-
     }
 }
-

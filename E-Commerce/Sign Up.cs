@@ -25,6 +25,7 @@ namespace E_Commerce
             this.Hide();
         }
 
+
         private void button2_Click(object sender, EventArgs e)
         {
             string name = textBox4.Text;
@@ -32,71 +33,67 @@ namespace E_Commerce
             string password = textBox2.Text;
             int count = password.Length;
             string retype_pass = textBox1.Text;
-            if (utility.users.Count > 0)
+            bool usernameExists = false;
+
+            // Load the list of users from the text file
+            utility.load_users();
+
+            // Check if the username already exists in the list of users
+            foreach (user u in utility.users)
             {
-                foreach (user u in utility.users)
+                if (u.username.Equals(user_name))
                 {
-                    if (u.username == user_name)
+                    MessageBox.Show("Username already exists. Try another");
+                    usernameExists = true;
+                    break;
+                }
+            }
+
+            // If the username doesn't already exist, create a new user
+            if (!usernameExists)
+            {
+                if (count >= 6)
+                {
+                    if (password == retype_pass)
                     {
+                        string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
+                        StreamWriter sw = File.AppendText(path);
+                        user uu = new user(user_name, password,name);
+                        utility.users.Add(uu);
+                        string ss = $"{user_name},{password},{name}";
+                        sw.WriteLine(ss);
+                        sw.Close();
 
-                        if (count >= 6)
-                        {
-                            if (password == retype_pass)
-                            {
-                                string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
-                                StreamWriter sw = File.AppendText(path);
-                                user uu = new user(user_name, name, password);
-                                utility.users.Add(uu);
-                                string ss = $"{user_name},{password},{name}";
-                                sw.WriteLine(ss);
-                                sw.Close();
+                        MessageBox.Show("User created successfully");
 
-                                Form1 lf = new Form1();
-                                lf.Show();
-                                this.Hide();
-
-                            }
-                            else
-                            {
-                                MessageBox.Show("Passwords do not match");
-                            }
-
-                        }
-                        else
-                        {
-                            MessageBox.Show("Password must be 6 or more characters");
-                        }
+                        // Show the login form
+                        Form1 lf = new Form1();
+                        lf.Show();
+                        this.Hide();
                     }
                     else
                     {
-                        MessageBox.Show("Username exists. Try another");
+                        MessageBox.Show("Passwords do not match");
                     }
+
+                }
+                else
+                {
+                    MessageBox.Show("Password must be 6 or more characters");
                 }
             }
-            else
-            {
-
-                string path = @"G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\Information.txt";
-                StreamWriter sw = File.AppendText(path);
-                user uu = new user(user_name, name, password);
-                utility.users.Add(uu);
-                string ss = $"{user_name},{password},{name}";
-                sw.WriteLine(ss);
-                sw.Close();
-
-                Form1 lf = new Form1();
-                lf.Show();
-                this.Hide();
-            }
-
-
-
         }
 
+<<<<<<< HEAD
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
+=======
+
+
+
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
     }
 }
 

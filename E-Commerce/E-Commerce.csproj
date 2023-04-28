@@ -46,11 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Compile Include="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
+=======
+    <Compile Include="balance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="balance.Designer.cs">
+      <DependentUpon>balance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cart.Designer.cs">
+      <DependentUpon>cart.cs</DependentUpon>
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -58,13 +72,33 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="order status.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="order status.Designer.cs">
+      <DependentUpon>order status.cs</DependentUpon>
+    </Compile>
+    <Compile Include="profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profile.Designer.cs">
+      <DependentUpon>profile.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Shoplist.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Shoplist.Designer.cs">
       <DependentUpon>Shoplist.cs</DependentUpon>
+=======
+    <Compile Include="review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="review.Designer.cs">
+      <DependentUpon>review.cs</DependentUpon>
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
     </Compile>
     <Compile Include="Sign Up.cs">
       <SubType>Form</SubType>
@@ -74,11 +108,31 @@
     </Compile>
     <Compile Include="user.cs" />
     <Compile Include="utility.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+=======
+    <Compile Include="welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.cs">
+      <DependentUpon>welcome.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="balance.resx">
+      <DependentUpon>balance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cart.resx">
+      <DependentUpon>cart.cs</DependentUpon>
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="order status.resx">
+      <DependentUpon>order status.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profile.resx">
+      <DependentUpon>profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,11 +143,19 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <EmbeddedResource Include="Shoplist.resx">
       <DependentUpon>Shoplist.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="review.resx">
+      <DependentUpon>review.cs</DependentUpon>
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
     </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

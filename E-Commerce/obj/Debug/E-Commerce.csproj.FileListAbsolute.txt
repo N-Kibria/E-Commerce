@@ -10,3 +10,17 @@ G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.exe
 G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.exe.config
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.exe
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.pdb
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Form1.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Properties.Resources.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Sign_Up.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateResource.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.exe
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Admin.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Shoplist.resources

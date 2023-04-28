@@ -1,0 +1,35 @@
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\bin\Debug\E-Commerce.exe.config
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\bin\Debug\E-Commerce.exe
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\bin\Debug\E-Commerce.pdb
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.AssemblyReference.cache
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.SuggestedBindingRedirects.cache
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.Form1.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.Properties.Resources.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.Sign_Up.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateResource.cache
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.exe
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E-Commerce.pdb
+<<<<<<< HEAD
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.exe.config
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.exe
+C:\Users\User\Downloads\E-commerce\E-Commerce\bin\Debug\E-Commerce.pdb
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Form1.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Properties.Resources.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Sign_Up.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.GenerateResource.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.exe
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Admin.resources
+C:\Users\User\Downloads\E-commerce\E-Commerce\obj\Debug\E_Commerce.Shoplist.resources
+=======
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.welcome.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.balance.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.cart.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.order_status.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.profile.resources
+G:\IUT\Semester\1-2\SWE 4202\E-Commerce(Project)\E-Commerce\obj\Debug\E_Commerce.review.resources
+>>>>>>> 73066047026ab993dc38a33dce6020dfdd160c72
